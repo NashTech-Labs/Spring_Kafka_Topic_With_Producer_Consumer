@@ -22,7 +22,7 @@ bin/kafka-server-start.sh config/server.properties
 ```
 ### In a new terminal execute the following command to create the topic for kafka.
 ```bash
-bin/kafka-topics.sh --create --topic kafka-topic-kipp --bootstrap-server localhost:9092
+bin/kafka-topics.sh --create --topic k"test_topic3" --bootstrap-server localhost:9092
 ```
 
 ### KAFKA-Assignments is:
