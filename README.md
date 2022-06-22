@@ -1,12 +1,9 @@
-## SpringBootKafka_Integration
-"creating new repo"
-
 ## README
-To Clone the git repository
-```bash
-git clone https://github.com/Shashikant-15/SpringBootKafka_Integration.git
-```
 
+## SpringBootKafka_Integration
+
+### Templates Description :
+* write producer and consumer in spring boot and integrate with Kafka.
 
 ### To Start the Zookeeper Server and Kafka Server
 
@@ -25,10 +22,15 @@ bin/kafka-server-start.sh config/server.properties
 bin/kafka-topics.sh --create --topic test_topic3 --bootstrap-server localhost:9092
 ```
 
-### KAFKA-Assignments is:
-* write producer and consumer in spring boot and integrate with Kafka.
-
 ### run the ApacheKafkaSpringBootApplication class for checking execution of assignments
+### Requirements:
+* Java 8 or more
+* Java Platform (JDK) 8
+* Apache Maven 3.x
 
-#### you can open the file "output.png & postman.png to see the approriate Input and Output for springBootKafka Integration
+### Quick start
+````
+mvn clean spring-boot:run
+````
+
 
